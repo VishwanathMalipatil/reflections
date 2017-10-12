@@ -1,0 +1,26 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git folder is created when a new repository is initialised. Initilisation
+is required to link the repository with GIT version control system.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+Staging area is a intermediate region between working directory and git repository.
+Files added to the staging area are added to the git but not commited to git repository.
+Staging area allows to reset the files which are added but not yet commited.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Staging area can be used to keep track of the changes made in the working directory. Among 
+many changes done in the working directory one the necessary changes which constitute one logical
+change and be added to staging area and can be commited to repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches are useful in following cases
+1. Deveoping new feature but keeping the working base intact
+2. Development of customer related changes on platform software.
+3. Maintaining different databases for different features of software, which are derived from single base.
+Branches help to keep the working base intact so that in case if latest changes donesn't work it is possible to revert back to
+working version.
+
+How do the diagrams help you visualize the branch structure?
+The digarams help to findout when the branch was made and what version is used as a base for making the branches.
+It also help to know how many branches exist on the master branch.
